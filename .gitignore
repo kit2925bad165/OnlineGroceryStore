@@ -1,0 +1,21 @@
+# Maven / Java
+target/
+**/target/
+*.class
+
+# Frontend dependencies and build output
+**/node_modules/
+**/dist/
+**/.vite/
+
+# IDE and OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local configuration and secrets
+.env
+.env.*
+**/application-local.properties
